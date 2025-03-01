@@ -4,10 +4,7 @@ public class Ship {
     private String name;
     private List<Position> cells;
 
-    public Ship() {
-
-    }
-
+    public Ship() { }   
     public Ship(List<Position> cells) {
         this.cells = cells;
     }
